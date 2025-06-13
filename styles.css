@@ -139,6 +139,10 @@
   left: 23px;
   object-fit: cover;
 }
+
+.HTML-CSS-foundations:hover {
+  color: hsl(47, 88%, 63%);
+}
 /*
 
 Couldn't figure this out--decided to prioritize other assignments.
