@@ -1,0 +1,139 @@
+
+.desktop {
+  background-color: #f7d038;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .overlap-group-wrapper {
+  background-color: #f7d038;
+  width: 1440px;
+  height: 1024px;
+}
+
+.desktop .overlap-group {
+  position: relative;
+  width: 409px;
+  height: 514px;
+  top: 229px;
+  left: 522px;
+}
+
+.desktop .rectangle {
+  position: absolute;
+  width: 395px;
+  height: 514px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 18px;
+  box-shadow: 13px 11px 1.5px 3px #000000;
+}
+
+.desktop .text-wrapper {
+  position: absolute;
+  top: 460px;
+  left: 87px;
+  font-family: "Figtree-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .these-languages-are {
+  position: absolute;
+  top: 377px;
+  left: 23px;
+  font-family: "Figtree-Regular", Helvetica;
+  font-weight: 400;
+  color: #6b6b6b;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .illustration-article-wrapper {
+  position: absolute;
+  width: 345px;
+  height: 180px;
+  top: 34px;
+  left: 64px;
+}
+
+.desktop .illustration-article {
+  position: relative;
+  width: 351px;
+  height: 210px;
+  top: -15px;
+  left: -41px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.desktop .clip-path-group {
+  position: absolute;
+  width: 351px;
+  height: 209px;
+  top: 1px;
+  left: 0;
+}
+
+.desktop .frame {
+  position: absolute;
+  width: 96px;
+  height: 26px;
+  top: 257px;
+  left: 23px;
+  background-color: #f7d038;
+}
+
+.desktop .div {
+  position: absolute;
+  top: 2px;
+  left: 17px;
+  font-family: "Figtree-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-2 {
+  position: absolute;
+  top: 299px;
+  left: 23px;
+  font-family: "Figtree-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .HTML-CSS-foundations {
+  position: absolute;
+  top: 335px;
+  left: 23px;
+  font-family: "Figtree-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .image-avatar {
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  top: 448px;
+  left: 23px;
+  object-fit: cover;
+}
