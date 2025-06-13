@@ -5,25 +5,27 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  min-height: 100vh;
 }
 
 .desktop .overlap-group-wrapper {
-  background-color: #f7d038;
-  width: 1440px;
-  height: 1024px;
+  width: 100%;
+  max-width: 1440px;;
+  height: auto;
 }
 
 .desktop .overlap-group {
   position: relative;
   width: 409px;
   height: 514px;
-  top: 229px;
-  left: 522px;
+  margin-top: 229px;
+  margin-left: 522px;
 }
 
 .desktop .rectangle {
-  position: absolute;
-  width: 395px;
+  position: relative;
+  width: 100%;
+  max-width: 395px;
   height: 514px;
   top: 0;
   left: 0;
@@ -137,3 +139,14 @@
   left: 23px;
   object-fit: cover;
 }
+/*
+
+Couldn't figure this out--decided to prioritize other assignments.
+
+@media (max-width:375px) {
+  .desktop .overlap-group-wrapper {
+    height: 667px;
+    background-color: blue;
+  }
+}
+*/
